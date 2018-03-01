@@ -4,7 +4,7 @@ A digital clock that displays time in linux terminal in differnt colors
 
 Make sure you have installed ncurses library.
 
-compliation
+compilation
 -----------
 `gcc` -o terminal_clock terminal_clock.c
 
