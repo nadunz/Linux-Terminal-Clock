@@ -1,9 +1,5 @@
 /*
-
-Author :				A.M.N.P Adikari
-Registration Number :	E/14/010
-Last Modified Date :	2017.03.03
-
+Author : Nadun Priyankara
 */
 
 #include <stdio.h>
@@ -17,7 +13,7 @@ Last Modified Date :	2017.03.03
 #define DEFAULT		-2
 
 #define BLACK		0
-#define RED			1
+#define RED		1
 #define GREEN		2
 #define YELLOW		3
 #define BLUE		4
@@ -26,16 +22,16 @@ Last Modified Date :	2017.03.03
 #define	WHITE		7
 
 #define ZERO 		0
-#define ONE			1
-#define TWO			2
+#define ONE		1
+#define TWO		2
 #define THREE		3
 #define FOUR		4
 #define FIVE		5
-#define SIX			6
+#define SIX		6
 #define	SEVEN		7
 #define	EIGHT		8	
 #define NINE		9
-#define DOT			10
+#define DOT		10
 
 // define global variable clockColor
 int clockColor;		 		           
@@ -136,10 +132,10 @@ void printDigitalFigure(int figure,int raw){
 	}
 	
 	int digitalZero[5][6]={{1,1,1,1,1,1}, // digital zero
-		 		   		   {1,1,0,0,1,1},
-				           {1,1,0,0,1,1},
-		 		           {1,1,0,0,1,1},
-		 		           {1,1,1,1,1,1}};
+		 		{1,1,0,0,1,1},
+				{1,1,0,0,1,1},
+		 		{1,1,0,0,1,1},
+		 		{1,1,1,1,1,1}};
 		 		           
 	int digitalOne[5][6]={ {0,0,0,0,1,1}, // digital one
 		 		   		   {0,0,0,0,1,1},
